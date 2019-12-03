@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const array = fs.readFileSync('day2.txt').toString().split(",").map(Number);
+const array = fs.readFileSync('input').toString().split(",").map(Number);
 
 const program = (array) => {
   let i = 0;

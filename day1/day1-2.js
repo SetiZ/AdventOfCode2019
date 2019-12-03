@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const array = fs.readFileSync('day1.txt').toString().split("\n");
+const array = fs.readFileSync('input').toString().split("\n");
 const reducer = (accumulator, currentValue) => accumulator + currentValue;
 const fuel = (x, sum) => {
   const floor = Math.floor(x/3) - 2;
